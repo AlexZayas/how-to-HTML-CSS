@@ -1,0 +1,115 @@
+
+/* the . is the class selector */
+.header {
+    display: flex;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    color: blue
+}
+
+.unordered-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+/* the # is the id selector */
+#paragraph {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    font-size: 25px;
+    height: 100px;
+}
+
+/* .section {
+    background-color: pink;
+} */
+
+/* below the elements are directly styled for example all h1 tags in this project color will be red */
+h1 {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: yellow;
+}
+
+h4 {
+    color: white;
+}
+
+h5 {
+    color: black;
+}
+
+h6 {
+    color: pink;
+}
+
+img {
+    height: 65px;
+}
+
+hr {
+    height: 5px;
+    background-color: crimson;
+}
+
+footer {
+    background-color: blue;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gold;
+    font-size: 25px;
+}
+
+body {
+    background-color: lightgray;
+}
+
+button {
+    border-radius: 20px;
+    background-color: blue;
+    outline: 2px solid red;
+    box-shadow: 50px;
+
+}
+
+@media screen and (max-width: 1023px) {
+    .unordered-list {
+        flex-direction: column;
+    }
+
+    body {
+        background-color: black;
+    }
+
+    button {
+        background-color: red;
+    }
+
+    footer {
+        background-color: red;
+    }
+
+    .list-container {
+    border: 10px dashed red;
+    }
+}
